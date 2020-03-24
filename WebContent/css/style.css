@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+#content{width:1000px; height: 500px; margin: 0 auto;}
+#content table {width:100%;  margin: 0 auto;}
+#content table tr { background-color: lightgray; height:40px; }
+#content table tr:hover {
+	cursor: pointer;
+}
+#content td, #content_form th {text-align: center; padding:5px; }
+#content caption {font-size: 18px; padding:10px;}
+#content h2, #content_form b{text-align: center; color:red;}
+#content a { text-decoration: none; color:black}
+#content .left{text-align: left;}
+#content .paging {text-align: center;}
+#content input:not(.btn), #content_form textarea {
+	width: 90%;
+}
